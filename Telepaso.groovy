@@ -74,7 +74,7 @@ class TelePaso {
          tv_program.check( it, "chanid"    , /file\.chanid\s*=\s*'(\d+)';/    )
          tv_program.check( it, "id"        , /file\.starttime\s*=\s*'(\d+)';/ )
          tv_program.check( it, "size"      , /file\.size\s*=\s*'(\d+)';/      )
-         tv_program.check( it, "filename"  , /file\.filename\s*=\s*'.+\/(.+)';/      )
+         tv_program.check( it, "filename"  , /file\.filename\s*=\s*'.+\/(.+)';/      ) // '
       }
    } // create_tv_programs
 
